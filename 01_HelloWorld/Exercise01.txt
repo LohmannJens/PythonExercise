@@ -1,0 +1,16 @@
+#We will right now start with your first exercise.
+#Our goal is to have a first output and be able to write things on the screen.
+#For that the function "print()" is used.
+#If you want to write "Hello World!" you have to use quotation marks (" ").
+#Try it and type the following in your script:
+
+print("Hello World!")
+
+#If you run the script the output should be the following:
+
+>>>Hello World!
+
+#Congratulations! You wrote your first own code.
+
+##################### To follow up #########################
+#Try to write your own name our greet your friends.

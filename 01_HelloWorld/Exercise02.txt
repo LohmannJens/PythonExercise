@@ -1,0 +1,26 @@
+#We will continue with the second exercise.
+#Now we will learn how to declare and use variables.
+#A variable is asigned by using the equal operator "=".
+
+a = "Hello World!"
+print(a)
+
+>>>Hello World!
+
+#Now the string "Hello World!" was saved as variable a.
+
+#Sometime you want to have only a bit of the output as a variable.
+#For example if you write letters to different persons, you just want to change the name.
+#To reveive this you can use the format() fuction which works as followed:
+
+name = "Thomas"
+print("Hello {}!".format(name))
+
+>>>Hello Thomas!
+
+#"{}" is used as a placeholder and is filled by the variable in the format() function.
+########################To follow up#############################
+#Try to greet two persons (Thomas & Benjamin) with the same expression.
+#The Output should look like the following:
+
+>>>Hello Thomas, Hello Benjamin!

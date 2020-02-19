@@ -1,0 +1,19 @@
+#Now we will learn how to connect different strings.
+#The first method is a simple mathematical expression
+
+string1 = "Hello"
+string2 = " World!"
+string3 = string1 + string2
+
+print(string3)
+
+>>>Hello World!
+
+#Now try the following script and explain what is happening:
+
+string1 = "Hello"
+string2 = " World!"
+string1 += string2
+
+print(string1)
+

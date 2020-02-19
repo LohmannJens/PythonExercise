@@ -1,0 +1,31 @@
+#Now we will learn our first data type, strings.
+#We already used a string in the Hello World Exercise.
+
+string = "Thomas"
+
+#Thomas is a string, which is asigned to the variable a.
+#We can use brackets [] to access specific positions in a string.
+#Try the following:
+
+print(string[1])
+
+You will get this output:
+
+>>>h
+
+#What did you expect?
+#In Python (and also other programming languages) strings start with the index 0.
+#You can also access more than one letter of a string.
+#Try:
+
+print(string[0:3])
+
+#To get the last character of a string  you can use the following trick:
+
+print(string[-1:])
+
+###########################To follow up###################################
+#Try to print every second letter of the following string.
+#Start with the "!" and go backwards.
+
+string = "Python is fun!"

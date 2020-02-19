@@ -1,0 +1,22 @@
+#Now we will learn how to access items in a list.
+#It works very similar to working with strings.
+
+list1 = [1,2,3,4,5]
+print(list1[1])
+
+>>>2
+
+#Again the index starts at 0.
+#Some thing special in Python is, that the elements of a list don't have to be the same data type.
+#So you can mix strings, numbers and even lists with each other.
+#What is the output of the following?
+
+list2 = ["Hello",1,2,[5,7,0],"Thomas"]
+print(list2[1] + list2[3][1])
+
+####################To follow up#########################
+#Take list2 as given.
+#Try to produce the following output with it:
+#Tipp: The exclamation mark is not included in the string in the list!
+
+>>>Hello Thomas!

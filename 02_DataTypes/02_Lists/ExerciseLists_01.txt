@@ -1,0 +1,26 @@
+#Now we will get used to the next data type.
+#Lists are very useful in python, because it allows to save different data types together.
+#A list is initialised by the command list().
+
+list1 = list()
+print(list1)
+
+>>>[]
+
+#We created an empty list.
+#If you already know, what will be in the list you can also initialise it by
+
+list2 = [1,2,3,4,5]
+
+#To add new elements at the end of a list .append() can be used
+#To remove them .pop() is used
+#To add them at a specific position .insert(position,element)
+#Try to follow and understand these expressions:
+
+list2.append(6)
+list2.insert(3,9)
+list2.pop()
+list2.pop(0)
+list2.pop(3)
+
+#Which elements are still in list2
